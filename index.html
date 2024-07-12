@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    <section id="seleccionar mascota">
+    <section id="seleccionar-mascota">
         <h1 class="title">Pokemon</h1>
         <h2 class="subtitle">Elije tu mascota</h2>
         <div class="tarjetas" >
             <Label class="tarjeta-pokemon" for="charmander">
                 <p>charmander</p>
-                <img src>
+                <img src="./Assets/pkm-charmander-512x512.png">
             </Label>
             <input type="radio" name="mascota" id="charmander">
 
             <Label class="tarjeta-pokemon" for="boulbasaur">
                 <p>boulbasaur</p>
-                <img src>
+                <img src="./Assets/R (1).png">
             </Label>
             <input type="radio" name="mascota" id="boulbasaur">
 
             <Label class="tarjeta-pokemon" for="squirtle">
                 <p>squirtle</p>
-                <img src>
+                <img src="./Assets/R.png">
             </Label>
             <input type="radio" name="mascota" id="squirtle">
         </div>
@@ -32,6 +33,22 @@
         <button id="poton-pokemon">Seleccionar</button>
         
 
-    </section> 
+    </section>
+
+    <section id="Selecionar-ataque">
+        <h1 class="title">Pokemon</h1>
+        <h2 class="subtitle">Elige tu mascota</h2>
+        <div>
+            <button id="boton-fuego" class="button-de-ataque">Fuego</button>
+            <button id="boton-agua" class="button-de-ataque">Agua</button>
+            <button id="boton-tierra" class="button-de-ataque">Tierra</button>
+        </div>
+        <div >
+            <section id="mensajes"></section>
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
+    </section>
 </body>
 </html>

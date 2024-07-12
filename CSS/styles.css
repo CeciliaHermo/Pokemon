@@ -1,0 +1,34 @@
+body{
+    font-family: ;
+    background-color:#047283;
+    background-image: url();
+    background-size: cover;
+}
+
+#seleccionar-mascota {display: flex;
+flex-direction: column; justify-content: center; align-items: center;}
+
+.title{color: #A5B452; 
+    font-size: 32px;
+     font-family: ;}
+
+.sbtitle{color: #A8D0DB;
+     font-size: 32px;}
+
+.tarjetas{display: flex; 
+    gap: 10px;}
+
+.tarjeta-pokemon{width: 200px;
+     height: 100px; 
+     background-color: #d3a424; 
+     padding: 10px; 
+     box-sizing: border-box;
+     border-radius: 20px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color: #047283}
+
+.tarjeta-pokemon img{
+    width: 80px;
+}
